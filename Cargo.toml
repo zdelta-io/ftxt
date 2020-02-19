@@ -1,0 +1,18 @@
+[package]
+name = "ftxt"
+version = "1.1.0"
+authors = ["xavier"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.0.7"
+serde = "1"
+serde_derive = "1"
+rand = "0.6.5"
+fasttext = "0.4.1"
+stopwords = "0.1.0"
+vtext = "0.1.0-alpha.1"
+rust-stemmers = "1.1.0"
+itertools = "0.8.0"
